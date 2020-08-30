@@ -3,6 +3,6 @@ module.exports = {
     "vuetify"
   ],
   publicPath: process.env.NODE_ENV === 'production'
-    ? 'https://<StevenMaharaj>.github.io/<binance_stream>/'
+    ? 'https://StevenMaharaj.github.io/binance_stream/'
     : '/'
 }
