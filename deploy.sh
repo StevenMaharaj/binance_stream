@@ -21,6 +21,10 @@ git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:StevenMaharaj/binance_stream.git master:gh-pages
-git branch -M master
+# git branch -M master
+# git remote add origin https://github.com/StevenMaharaj/binance_stream.git
+# git push -u origin master
+
+git branch -M deploy
 git remote add origin https://github.com/StevenMaharaj/binance_stream.git
-git push -u origin master
+git push -u origin deploy
